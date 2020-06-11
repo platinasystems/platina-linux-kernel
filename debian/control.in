@@ -1,0 +1,80 @@
+Source: platina-linux-kernel
+Section: kernel
+Priority: optional
+Maintainer: Kevin Paul Herbert <kph@platinasystems.com>
+Build-Depends: debhelper (>= 10), goes-build
+Standards-Version: 3.9.8
+Homepage: https://github.com/platinasystems/platina-linux-kernel
+Vcs-Browser: https://github.com/platinasystems/platina-linux-kernel
+Vcs-Git: https://github.com/platinasystems//platina-linux-kernel.git
+
+Package: linux-headers-example-amd64
+Architecture: any
+Depends: ${misc:Depends}, linux-headers-#KERNELRELEASE#
+Description: Linux kernel header meta package for Example AMD64 test platform
+ This is the kernel header meta package for the Example AMD64 test
+ platform. It tracks the upstream kernel headers and has custom drivers
+ for the MK1 hardware as well as additional software features
+ for datacenter switch use.
+
+Package: linux-image-example-amd64
+Architecture: amd64
+Depends: ${misc:Depends}, linux-image-#KERNELRELEASE#
+Description: Linux kernel meta package for the Example AMD64 test platform
+ This is the kernel image meta package for the Example AMD64
+ test platform. It tracks the upstream kernel image and has
+ custom drivers for the MK1 hardware as well as additional
+ software features for datacenter switch use.
+
+Package: linux-image-example-amd64-dbg
+Architecture: amd64
+Depends: ${misc:Depends}, linux-image-#KERNELRELEASE#-dbg
+Description: Debug Linux kernel package for the Example AMD64 test platform
+ This is the debug kernel image meta package for the Example AMD64
+ test platform. It tracks the upstream kernel debug image and has
+ custom drivers for the MK1 hardware as well as additional
+ software features for datacenter
+ switch use.
+
+Package: linux-libc-dev-example-amd64
+Architecture: amd64
+Depends: ${misc:Depends}, linux-libc-dev-#KERNELID#
+Description: Linux libc development headers for the Example AMD64 test platform
+ This is the Linux libc development header meta package for the Example
+ AMD64 test platform. It tracks the  upstream Linux libc development
+ and has custom drivers for the MK1 hardware as well as additional
+ software features for datacenter switch use.
+
+Package: linux-headers-platina-mk1
+Architecture: any
+Depends: ${misc:Depends}, linux-headers-#KERNELRELEASE#
+Description: Linux kernel headers for the Platina MK1
+ This is the kernel header meta package for the Platina MK1. It tracks the
+ upstream kernel headers and has custom drivers for the MK1 hardware
+ as well as additional software features for datacenter switch use.
+
+Package: linux-image-platina-mk1
+Architecture: amd64
+Depends: ${misc:Depends}, linux-image-#KERNELRELEASE#
+Description: Linux kernel for the Platina MK1
+ This is the kernel image meta package for the Platina MK1. It tracks the
+ upstream kernel image and has custom drivers for the MK1 hardware
+ as well as additional software features for datacenter switch use.
+
+Package: linux-image-platina-mk1-dbg
+Architecture: amd64
+Depends: ${misc:Depends}, linux-image-#KERNELRELEASE#-dbg
+Description: Linux kernel with debug for the Platina MK1
+ This is the kernel image debug meta package for the Platina MK1.
+ It tracks the upstream kernel debug image and has custom drivers
+ for the MK1 hardware as well as additional software features
+ for datacenter switch use.
+
+Package: linux-libc-dev-platina-mk1
+Architecture: amd64
+Depends: ${misc:Depends}, linux-libc-dev-#KERNELID#
+Description: Linux libc development headers for the Platina MK1
+ This is the Linux libc development header meta package for the Platina MK1.
+ It tracks the  upstream Linux libc development and has custom drivers
+ for the MK1 hardware as well as additional software features for
+ datacenter switch use.

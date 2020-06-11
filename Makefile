@@ -1,7 +1,10 @@
+platina-linux-kernel:
+
 bindeb-pkg:
 	rm -f *.deb
-	goes-build -x -z -v platina-mk1.deb example-amd64.deb
+	goes-build -x -z -v debian/control
 	mv *.deb ..
+	debuild -i -us -uc -I -Iworktrees --lintian-opts --profile debian
 
-.PHONY: bindeb-pkg
+.PHONY: platina-linux-kernel bindeb-pkg
 

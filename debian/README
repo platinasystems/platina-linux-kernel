@@ -1,0 +1,15 @@
+The Debian Package platina-linux-kernel
+----------------------------
+
+This package builds the latest kernel as a debian package, and builds
+a metapackage that points to this version.
+
+If you install the metapackage, you will get automatic kernel updates.
+
+If you install the explicit versioned package, you will not get automatic
+updates.
+
+If you install both, you will get automatic updates, but old versions
+will not be suggested for autoremoval. 
+
+-- Kevin Paul Herbert <kph@platinasystems.com>  Wed, 10 Jun 2020 18:25:21 -0600

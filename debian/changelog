@@ -1,3 +1,9 @@
+platina-linux-kernel (2.0~rc.1) stretch; urgency=medium
+
+  * platina-linux-kernel: Bump goes-build to 2.0~rc.1
+
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Fri, 19 Jun 2020 15:43:24 -0700
+
 platina-linux-kernel (2.0~alpha.1) unstable; urgency=medium
 
   * Linux kernel v4.18.20-303

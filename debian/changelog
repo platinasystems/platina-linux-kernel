@@ -1,8 +1,9 @@
-platina-linux-kernel (2.1~alpha.0) UNRELEASED; urgency=medium
+platina-linux-kernel (2.1.0) stretch; urgency=medium
 
-  * UNRELEASED
+  * Release 2.1.0
+  * Release 2.1.0
 
- -- Kevin Paul Herbert <kph@platinasystems.com>  Tue, 23 Jun 2020 11:22:02 -0600
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Wed, 23 Sep 2020 10:02:12 -0700
 
 platina-linux-kernel (2.0.0) stretch; urgency=medium
 

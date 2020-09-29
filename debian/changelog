@@ -1,6 +1,13 @@
+platina-linux-kernel (2.1.1) stretch; urgency=medium
+
+  * Kernel 4.18.314-platina
+  * Release 2.1.1
+
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Tue, 29 Sep 2020 14:14:12 -0700
+
 platina-linux-kernel (2.1.0) stretch; urgency=medium
 
-  * Release 2.1.0
+  * Kernel 4.18.313-platina
   * Release 2.1.0
 
  -- Kevin Paul Herbert <kph@platinasystems.com>  Wed, 23 Sep 2020 10:02:12 -0700

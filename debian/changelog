@@ -1,8 +1,14 @@
+platina-linux-kernel (2.1.3) stretch; urgency=medium
+
+  * Kernel 4.18.20.318-platina
+
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Tue, 06 Oct 2020 10:03:47 -0700
+
 platina-linux-kernel (2.1.2) stretch; urgency=medium
 
-  * Kernel 4.18.315-platina
+  * Kernel 4.18.20.315-platina
 
- -- Kevin Paul Herbert <kph@platina4.platinasystems.com>  Wed, 30 Sep 2020 20:48:43 -0700
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Wed, 30 Sep 2020 20:48:43 -0700
 
 platina-linux-kernel (2.1.1) stretch; urgency=medium
 

@@ -1,3 +1,9 @@
+platina-linux-kernel (2.2~alpha.0) stretch; urgency=medium
+
+  * Kernel 5.4.111.26-platina
+
+ -- Kevin Paul Herbert <kph@platinasystems.com>  Mon, 12 Apr 2021 15:08:21 -0700
+
 platina-linux-kernel (2.1.7) stretch; urgency=medium
 
   * Kernel 4.18.20.334-platina

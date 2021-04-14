@@ -46,6 +46,14 @@ Description: Linux libc development headers for the Example AMD64 test platform
  and has custom drivers for the MK1 hardware as well as additional
  software features for datacenter switch use.
 
+Package: linux-headers-amd64
+Architecture: any
+Depends: ${misc:Depends}, linux-headers-#KERNELRELEASE#
+Description: Linux kernel headers for generic amd64.
+ This is the kernel header meta package for generic AMD64. It tracks the
+ upstream kernel headers and has custom drivers for the MK1 hardware
+ as well as additional software features for datacenter switch use.
+
 Package: linux-headers-platina-mk1
 Architecture: any
 Depends: ${misc:Depends}, linux-headers-#KERNELRELEASE#
